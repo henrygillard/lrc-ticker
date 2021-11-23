@@ -19,9 +19,9 @@ function Dashboard({ price, data, pair }) {
   return (
       
     <div className="dashboard">
-      <h1>{pair} Price:</h1>
+      <h2>{pair} Price:</h2>
       <h1>{`$${price}`}</h1>
-      <h1>My Investment Value:</h1>
+      <h2>My Investment Value:</h2>
       <h1>{`$${portfolio}`}</h1>
       
     </div>
